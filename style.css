@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');*{
+    background: black;
+    color: white;
+    font-family: 'Ubuntu', sans-serif;
+    cursor: default;
+}
+.heading{
+    text-align:center;
+    font-size: 48px;
+}
+.reset-btn{
+    margin-top:-10px;
+    display:flex;
+    justify-content: center;
+}
+.game{
+    display:flex;
+    justify-content: space-around;
+    text-align : center;
+    align-item:center
+}
+.computer-area{
+    width: 35vw;
+    height: 30vh;
+    border: 1px solid #41EA66;
+    font-size: 25px;
+}
+.player-area{
+    width: 35vw;
+    height: 30vh;
+    border: 1px solid #41EA66;
+    font-size: 25px;
+    /* #38ed60,#41ea66 green text #51e172 #38ed60 gert */
+}
+#playerChoice,#computerChoice{
+    margin-top: 100px
+}
+.choices{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+#result{
+    margin-top: 30px;
+    text-align:center;
+    font-size: 30px;
+}
+button{
+    border: none
+}
+
+.button-50 {
+  background-color: #38ed60;
+  border: 1px solid #000;
+  border-radius: 4px;
+  box-shadow: #fff 4px 4px 0 0,#000 4px 4px 0 1px;
+  color: black;
+  cursor: pointer;
+  font-size: 16px;
+  line-height: 20px;
+  margin: 0 5px 10px 0;
+  padding: 12px 40px;
+  text-align: center;
+}
+
+.button-50:active {
+  box-shadow: rgba(0, 0, 0, .125) 0 3px 5px inset;
+  outline: 0;
+}
+
+.button-50:not([disabled]):active {
+  box-shadow: #fff 2px 2px 0 0, #000 2px 2px 0 1px;
+  transform: translate(2px, 2px);
+}
+
+#footer{
+    color: #38ed60;
+    position:fixed;
+    left:0;
+    bottom:0;
+    text-align:center;
+    width:100%;
+    padding: 10px;
+}
+footer a{
+    text-decoration: none;
+    color: #38ed60;
+    cursor: pointer;
+}

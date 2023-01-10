@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RockPaperScissor</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1 class="heading">Stone Paper Scissor</h1>
+    <div class="reset-btn"><button onclick="reset()" style="cursor: pointer;">Reset</button></div>
+    <div class="game">
+        <div class="computer">
+            <h2 >Computer</h2>
+            <div class="computer-area">
+                <p id="computerChoice"></p>
+            </div>
+        </div>
+        <div class="player">
+            <h2>Player</h2>
+            <div class="player-area">
+                <p id="playerChoice"></p>
+            </div>
+            <div class="choices">
+                <button class="button-50" onclick="rock()">Rock</button>
+                <button class="button-50" onclick="paper()">Paper</button>
+                <button class="button-50" onclick="scissor()">Scissor</button>
+            </div>
+        </div>
+    </div>
+    <div id="result"></div>
+    <footer id="footer">Made with ❤ by <a href="https://www.linkedin.com/in/shruti-b7a695217/">Shruti</a></footer>
+    <script src="script.js"></script>
+</body>
+</html>
